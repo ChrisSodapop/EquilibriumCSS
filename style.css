@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#fond {
+    background-color: hsl(215, 32%, 27%);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.image {
+    height: 270px;
+    width: 270px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.Title {
+    color:hsl(0, 0%, 100%); 
+    margin: 15px;
+}
+
+.Text {
+  color: hsl(215, 51%, 70%);
+  margin: 15px; 
+}
+
+.color1 {
+    margin: 15px;
+    color: hsl(178, 100%, 50%);
+}
+
+.color2 {
+    text-align: end;
+    margin: 60px;
+    color: hsl(215, 51%, 70%);
+}
+
+hr {
+    background-color: black;
+    border:none;
+    height: 1px;
+}
+
+.Profil {
+    margin: 15px;
+}
