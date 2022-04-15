@@ -4,10 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | NFT preview card component</title>
 </head>
@@ -20,12 +22,15 @@
 
     <p class="Text">Our Equilibrium collection promotes balance and calm.</p>
 
-    <p><span class="color1">0.041 ETH</span>
-    <span class="color2">3 days left</span></p>
+    <p><span class="color1"><img src=images/icon-ethereum.svg>0.041 ETH</span>
+    <span class="color2"><img src=images/icon-clock.svg>3 days left</span></p>
 
     <hr/>
 
-    <p class="Profil">Creation of Jules Wyvern</p>
+    <div class="Profil"><img class="avatar" src="images/image-avatar.png">
+      <span class="Text1">Creation of</span>
+      <span class="Text2">Jules Wyvern</span>
+    </div>
   </section>
 </body>
 

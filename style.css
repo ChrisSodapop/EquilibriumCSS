@@ -25,30 +25,59 @@ body {
 .Title {
     color:hsl(0, 0%, 100%); 
     margin: 15px;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .Text {
   color: hsl(215, 51%, 70%);
   margin: 15px; 
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
 }
 
 .color1 {
     margin: 15px;
     color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .color2 {
-    text-align: end;
-    margin: 60px;
+    text-align: right;
+    margin: 35px;
     color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
 }
 
 hr {
     background-color: black;
-    border:none;
+    border: none;
     height: 1px;
 }
 
 .Profil {
+    margin: 15px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    border: solid white;
+    border-radius: 25px;
+    border-width: 1px;
+}
+
+.Text2 {
+    color: hsl(0, 0%, 100%);
+    margin: -10px;
+}
+
+.Text1 {
     margin: 15px;
 }
